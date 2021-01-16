@@ -5,8 +5,10 @@ def roll_call_dwarves
 end
 
 
-def summon_captain_planet
-  
+def summon_captain_planet(veggies)
+   veggies.collect do |call| 
+    call.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls
